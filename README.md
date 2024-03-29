@@ -1,3 +1,9 @@
+# Frontend Task - Saving Segment
+
+Runs the app in the development mode.
+
+Open [https://frontendtaskcustomerlabs.netlify.app](https://frontendtaskcustomerlabs.netlify.app) to view it in your browser.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
