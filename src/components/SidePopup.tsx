@@ -62,6 +62,7 @@ const SidePopup: React.FC<Props> = ({ popup }) => {
         )
     );
 
+  // functionality to remove dropdown
   const handleMinusClick = (index: number) => {
     setDropdowns((prevDropdowns) => {
       const newDropdowns = [...prevDropdowns];
@@ -75,6 +76,8 @@ const SidePopup: React.FC<Props> = ({ popup }) => {
       return newSelectedValues;
     });
   };
+
+  // functionality to save the segment
   const handleSaveSegment = () => {
     const schema = dropdowns
       .map((_, index) => {
